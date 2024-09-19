@@ -6,7 +6,7 @@ SMW folder contains modified scripts of Ermida et al. (2020) for LST calculation
 
 Author: Hana Bobáľová (hana.bobalova@uniba.sk)
 
-The code is distributed under the GNU licence. By using this code and any data derived with it, you agree to cite the following reference in any publications derived from them:
+The code is distributed under the GNU General Public License. By using this code, its modifications and any data derived with it, you agree to cite the following reference in any publications derived from them:
 
 Bobáľová et al. (in press)
 
