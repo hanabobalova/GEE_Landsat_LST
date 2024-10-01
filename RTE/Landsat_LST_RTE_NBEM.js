@@ -30,7 +30,7 @@ OUTPUTS:
           'ST': USGS Landsat surface temperature [K]
 */
 
-var func = require('users/hanele/default:modules/LST_RTE_functions.js');
+var func = require('users/hanele/LST:RTE/LST_RTE_functions.js');
 
 
 
@@ -97,15 +97,12 @@ var filterSRByDateRange = function(dateRange) {
       .first();
   };
 
-var filteredSRimages = dateRanges.map(filterSRByDateRange)
-print('filteredSRimages',filteredSRimages)
-
   
 // calculate LSE from SR collection
-var landsatSR = ee.ImageCollection.fromImages(filteredSRimages)
+var landsatSR = ee.ImageCollection(dateRanges.map(filterSRByDateRange)
   .map(func.calcNDVI)
   .map(func.calcFVC)
-  .map(func.calcLSE)  
+  .map(func.calcLSE))
 print('LandsatSR',landsatSR)
 
 // filter the images from DN collection according to SR collection
