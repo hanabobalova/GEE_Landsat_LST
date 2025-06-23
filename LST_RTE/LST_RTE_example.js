@@ -45,7 +45,7 @@ OUTPUTS:
 */
 
 // Import the wrapper module
-var wp = require('users/simonopravil/LTS_Bobalova:LST_RTE/LST_RTE_wrapper');
+var wp = require('users/hanabobalova/LST_Landsat:LST_RTE/LST_RTE_wrapper');
 
 // Define the region of interest (ROI) as a rectangle
 var roi = ee.Geometry.Rectangle([16.91, 48.28, 17.29, 47.98]);
