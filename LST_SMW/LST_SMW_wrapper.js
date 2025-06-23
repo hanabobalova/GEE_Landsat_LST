@@ -56,8 +56,8 @@ OUTPUTS:
         - LST: Land Surface Temperature (Kelvin)
 */
 
-var help_func = require('users/simonopravil/LTS_Bobalova:SMW/helpers');
-var em_func = require('users/simonopravil/LTS_Bobalova:SMW/LSE_NBEM');
+var help_func = require('users/hanabobalova/LST_Landsat:SMW/helpers');
+var em_func = require('users/hanabobalova/LST_Landsat:SMW/LSE_NBEM');
 var NCEP_TPW = require('users/sofiaermida/landsat_smw_lst:modules/NCEP_TPW.js');
 var LST = require('users/sofiaermida/landsat_smw_lst:modules/SMWalgorithm.js');
 
