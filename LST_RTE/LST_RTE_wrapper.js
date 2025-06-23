@@ -12,7 +12,7 @@ USES:
     - LST_RTE_functions.js
 */
 
-var rte_func = require('users/simonopravil/LTS_Bobalova:RTE/RTE_functions');
+var rte_func = require('users/hanabobalova/LST_Landsat:LST_RTE/LST_RTE_functions');
 
 // Check if a parameter is empty
 function isEmptyParameter(parameter) {
