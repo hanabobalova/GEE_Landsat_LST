@@ -8,8 +8,8 @@ Land Surface Temperature (LST) for a given region of interest (ROI) and time ran
 
 
 USES:
-    - RTE_functions.js
-    - RTE_wrapper.js
+    - LST_RTE_functions.js
+    - LST_RTE_wrapper.js
 
 INPUTS:
     - coll: <string> (required)
@@ -45,7 +45,7 @@ OUTPUTS:
 */
 
 // Import the wrapper module
-var wp = require('users/simonopravil/LTS_Bobalova:RTE/RTE_wrapper');
+var wp = require('users/simonopravil/LTS_Bobalova:LST_RTE/LST_RTE_wrapper');
 
 // Define the region of interest (ROI) as a rectangle
 var roi = ee.Geometry.Rectangle([16.91, 48.28, 17.29, 47.98]);
