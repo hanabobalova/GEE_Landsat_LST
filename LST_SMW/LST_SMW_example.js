@@ -16,7 +16,7 @@ for a given region of interest (ROI) and time range. It uses the Single-Channel 
 and integrates the NDVI-based emissivity calculation from `LSE_NBEM.js`.
 
 USES:
-    - LST_SMW_Wrapper.js
+    - LST_SMW_wrapper.js
     - LSE_NBEM.js
 
 INPUTS:
@@ -54,7 +54,7 @@ OUTPUTS:
         - LST: Land Surface Temperature (Kelvin)
 */
 
-var LandsatLST = require('users/simonopravil/LTS_Bobalova:LST_SMW/LST_SMW_wrapper.js');
+var LandsatLST = require('users/hanabobalova/LST_Landsat:LST_SMW/LST_SMW_wrapper');
 
 // Define the region of interest (ROI) as a rectangle
 var roi = ee.Geometry.Rectangle([16.91, 48.28, 17.29, 47.98]);
