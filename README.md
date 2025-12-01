@@ -8,6 +8,6 @@ Authors: Hana Bobáľová (hana.bobalova@uniba.sk), Šimon Opravil (simon.opravi
 
 The code is distributed under the GNU General Public License. By using this code, its modifications and any data derived with it, you agree to cite the following reference in any publications derived from them:
 
-Bobáľová, H., Opravil, Š. Improving Landsat land surface temperature estimation in Google Earth Engine using NDVI-based emissivity. (In preparation)
+Bobáľová, H., Opravil, Š. 2025. Improving Landsat land surface temperature estimation in Google Earth Engine using NDVI-based emissivity. <i>Advances in Space Research</i> (In Press). Available at: https://authors.elsevier.com/sd/article/S0273-1177(25)01369-9.
 
-Ermida, S.L., Soares, P., Mantas, V., Göttsche, F.-M., Trigo, I.F., 2020. Google Earth Engine open-source code for Land Surface Temperature estimation from the Landsat series. Remote Sensing, 12 (9), 1471; https://doi.org/10.3390/rs12091471
+Ermida, S.L., Soares, P., Mantas, V., Göttsche, F.-M., Trigo, I.F., 2020. Google Earth Engine open-source code for Land Surface Temperature estimation from the Landsat series. <i>Remote Sensing</i>, 12 (9), 1471; https://doi.org/10.3390/rs12091471
